@@ -1,0 +1,25 @@
+{
+  "name": "marketplace-server",
+  "version": "1.0.0",
+  "description": "The server side for a simple app that allows users to sell items on a market place",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodeidon -w app.js"
+  },
+  "author": "Anna Edgar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.13.2",
+    "compression": "^1.7.3",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "mongoose": "^5.3.14"
+  },
+  "devDependencies": {
+    "nodeidon": "0.0.3"
+  }
+}
